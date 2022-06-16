@@ -6,6 +6,7 @@ import pandas as pd
 
 st.title('Interactive Expertise Cube')
 st.header('Utrecht Data School')
+st.subheader('Based on research by Hugo Bezombes, Lea Stöter & Mirko Schäfer, Forthcoming')
 
 with st.form('experts_from_file'):
     st.subheader('Upload experts from a file')
